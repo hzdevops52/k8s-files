@@ -1,0 +1,19 @@
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files (e.g., VS Code)
+.vscode/
+
+# Specific Kubernetes/Helm artifacts you might not want to track
+charts/*/charts/
+charts/*/Chart.lock
+
+# Folders that might contain build/compiled files (if applicable)
+**/node_modules/
+**/dist/
+**/build/
